@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.right {
+    height: 45px;
+    display: flex;;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: centre;
+}
+
+ul li a {
+    padding: 20px;
+    padding-top: 35px;
+    margin-left: 0px;
+    font-size: 16px;  
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+   
+}
+
+
+.pic{
+   background-image: url('bac.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+    width: 100%;
+}
+
+.header{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate( -50%,-50%);
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    text-align: none;
+    margin-top: 350px;
+    padding: 20px;
+  
+}
+
+h3 {
+    font-size: 14px;
+    color: rgb(219, 142, 79);
+}
+
+h1 {
+    font-size: 55px;
+    color: rgb(10, 10, 51);
+    font-weight: bold;
+}
+
+p{
+    font-size: 5px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    margin-top:15px;
+}
+
+
+.button (type:submit_button) {
+    padding: 20px;
+    margin-top: 20px:
+
+}
+.cta {
+    box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:11px;
+	border:2px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+    cursor: pointer;
+}
+.cta:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.cta:active {
+	position:relative;
+	top:1px;
+}
+
+.btn{
+    box-shadow:inset 0px 1px 0px 0px #f8f6f4;
+	background:linear-gradient(to bottom, #ddd8d1 5%, #faf4ec 100%);
+	background-color:#eeee;
+	border-radius:11px;
+	border:2px solid #eeee;
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(10, 10, 51);
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d6cfc2;
+    cursor: pointer;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #f1e9df 5%, #ffc477 100%);
+	background-color:#dfbc8f;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
